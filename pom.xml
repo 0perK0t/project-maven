@@ -37,6 +37,11 @@
             <version>1.0</version>
             <scope>system</scope>
             <systemPath>${basedir}/lib/desktop-game-engine.jar</systemPath>
+            <!--  No plugin found for prefix 'D' in the current project and in the plugin groups
+             если сделать через консоль
+             mvn install:install-file  -Dfile= D:\JavaPojects\JavaRushPro\project-maven\lib\desktop-game-engine.jar -DgroupId=com.javarush -DartifactId= desktop-game-engine -Dversion=”1.0” -Dpackaging=jar
+             -->
+
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
