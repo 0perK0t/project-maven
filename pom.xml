@@ -4,6 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- ТТ Почему-то не запускается -->
+
     <groupId>jru.module3</groupId>
     <artifactId>project-maven</artifactId>
     <version>1.0</version>
